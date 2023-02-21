@@ -9,7 +9,7 @@
     font-weight: $headings-font-weight;
 
     .navbar-brand {
-        color: $white;
+        color: $light;
     }
 
     .navbar-nav {
@@ -17,7 +17,7 @@
 
         li.nav-item {
             a.nav-link {
-                color: $white;
+                color: $light;
 
                 &:hover {
                     color: $primary;
@@ -25,7 +25,7 @@
 
                 &:active,
                 &:focus {
-                    color: $white;
+                    color: $light;
                 }
 
                 &.active {
@@ -36,7 +36,7 @@
     }
 
     .navbar-toggler {
-        font-size: 80%;
+        font-size: 90%;
         padding: 0.8rem;
     }
 }
@@ -57,13 +57,13 @@
         }
 
         .navbar-nav>li.nav-item>a.nav-link.active {
-            color: $white;
+            color: $light;
             background: $primary;
 
             &:active,
             &:focus,
             &:hover {
-                color: $white;
+                color: $light;
                 background: $primary;
             }
         }

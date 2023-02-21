@@ -26,18 +26,9 @@
         }
     }
 
-    .divider-custom-icon {
-        color: $secondary;
-        font-size: 2rem;
-    }
-
     &.divider-light {
         .divider-custom-line {
-            background-color: $white;
-        }
-
-        .divider-custom-icon {
-            color: $white;
+            background-color: $background;
         }
     }
 }
