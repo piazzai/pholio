@@ -9,12 +9,33 @@
                     .row.justify-content-center
                         .col-lg-8
                             // Portfolio Modal - Title
-                            h2.portfolio-modal-title.text-secondary.text-lowercase.mb-0 Tasty Cake
+                            h2.portfolio-modal-title.text-secondary.text-lowercase.mb-0 Carousel with Controls
                             // Icon Divider
                             .divider-custom
                                 .divider-custom-line
-                            // Portfolio Modal - Image
-                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/cake.png', alt='...')
+                            // Portfolio Modal - Carousel with Controls
+                            #carouselControls.carousel.slide(data-bs-ride='carousel')
+                                .carousel-inner.rounded.mb-5
+                                    .carousel-item.active
+                                        img.d-block.w-100(src='assets/img/portfolio/cabin.png', alt='...')
+                                    .carousel-item
+                                        img.d-block.w-100(src='assets/img/portfolio/cake.png', alt='...')
+                                    .carousel-item
+                                        img.d-block.w-100(src='assets/img/portfolio/circus.png', alt='...')
+                                    .carousel-item
+                                        img.d-block.w-100(src='assets/img/portfolio/game.png', alt='...')
+                                    .carousel-item
+                                        img.d-block.w-100(src='assets/img/portfolio/safe.png', alt='...')
+                                    .carousel-item
+                                        img.d-block.w-100(src='assets/img/portfolio/submarine.png', alt='...')
+                                button.carousel-control-prev(type='button', data-bs-target='#carouselControls', data-bs-slide='prev')
+                                    span.carousel-control-prev-icon(aria-hidden='true')
+                                    span.visually-hidden
+                                        | Previous
+                                button.carousel-control-next(type='button', data-bs-target='#carouselControls', data-bs-slide='next')
+                                    span.carousel-control-next-icon(aria-hidden='true')
+                                    span.visually-hidden 
+                                        | Next
                             // Portfolio Modal - Text
                             p.mb-4
                                 | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
