@@ -32,6 +32,20 @@
 
 // Styling for the portfolio modals
 .portfolio-modal {
+    p {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+    }
+
+    .btn {
+        font-size: 1.25rem;
+    }
+
     .btn-close {
         color: $primary;
         font-size: 2rem;
