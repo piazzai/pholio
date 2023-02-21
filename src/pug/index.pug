@@ -17,9 +17,6 @@ html(lang='en')
         link(rel='icon', type='image/png', sizes='16x16' href='assets/favicon-16x16.png')
         link(rel='manifest', href='assets/site.webmanifest')
 
-        // Font Awesome icons (free version)
-        script(src='https://use.fontawesome.com/releases/v6.1.0/js/all.js', crossorigin='anonymous')
-
         // Google fonts
         link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
         link(href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic', rel='stylesheet', type='text/css')
@@ -33,9 +30,6 @@ html(lang='en')
         nav#mainNav.navbar.navbar-expand-lg.bg-secondary.text-uppercase.fixed-top
             .container
                 a.navbar-brand(href='#page-top') Start Bootstrap
-                button.navbar-toggler.text-uppercase.font-weight-bold.bg-primary.text-white.rounded(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
-                    | Menu 
-                    i.fas.fa-bars
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.ms-auto
                         li.nav-item.mx-0.mx-lg-1
@@ -55,9 +49,6 @@ html(lang='en')
                 // Icon Divider
                 .divider-custom.divider-light
                     .divider-custom-line
-                    .divider-custom-icon
-                        i.fas.fa-star
-                    .divider-custom-line
                 // Masthead Subheading
                 p.masthead-subheading.font-weight-light.mb-0 Graphic Artist - Web Designer - Illustrator
 
@@ -69,9 +60,6 @@ html(lang='en')
                 // Icon Divider
                 .divider-custom
                     .divider-custom-line
-                    .divider-custom-icon
-                        i.fas.fa-star
-                    .divider-custom-line
                 // Portfolio Grid Items
                 .row.justify-content-center
                     // Portfolio Item 1
@@ -79,42 +67,42 @@ html(lang='en')
                         .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal1')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
                                 .portfolio-item-caption-content.text-center.text-white
-                                    i.fas.fa-plus.fa-3x
+                                    | Project 1
                             img.img-fluid(src='assets/img/portfolio/cabin.png', alt='...')
                     // Portfolio Item 2
                     .col-md-6.col-lg-4.mb-5
                         .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal2')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
                                 .portfolio-item-caption-content.text-center.text-white
-                                    i.fas.fa-plus.fa-3x
+                                    | Project 2
                             img.img-fluid(src='assets/img/portfolio/cake.png', alt='...')
                     // Portfolio Item 3
                     .col-md-6.col-lg-4.mb-5
                         .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal3')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
                                 .portfolio-item-caption-content.text-center.text-white
-                                    i.fas.fa-plus.fa-3x
+                                    | Project 3
                             img.img-fluid(src='assets/img/portfolio/circus.png', alt='...')
                     // Portfolio Item 4
                     .col-md-6.col-lg-4.mb-5.mb-lg-0
                         .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal4')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
                                 .portfolio-item-caption-content.text-center.text-white
-                                    i.fas.fa-plus.fa-3x
+                                    | Project 4
                             img.img-fluid(src='assets/img/portfolio/game.png', alt='...')
                     // Portfolio Item 5
                     .col-md-6.col-lg-4.mb-5.mb-md-0
                         .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal5')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
                                 .portfolio-item-caption-content.text-center.text-white
-                                    i.fas.fa-plus.fa-3x
+                                    | Project 5
                             img.img-fluid(src='assets/img/portfolio/safe.png', alt='...')
                     // Portfolio Item 6
                     .col-md-6.col-lg-4
                         .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal6')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
                                 .portfolio-item-caption-content.text-center.text-white
-                                    i.fas.fa-plus.fa-3x
+                                    | Project 6
                             img.img-fluid(src='assets/img/portfolio/submarine.png', alt='...')
 
         // About Section
@@ -124,9 +112,6 @@ html(lang='en')
                 h2.page-section-heading.text-center.text-uppercase.text-white About
                 // Icon Divider
                 .divider-custom.divider-light
-                    .divider-custom-line
-                    .divider-custom-icon
-                        i.fas.fa-star
                     .divider-custom-line
                 // About Section Content
                 .row
@@ -139,7 +124,6 @@ html(lang='en')
                 // About Section Button
                 .text-center.mt-4
                     a.btn.btn-xl.btn-outline-light(href='https://startbootstrap.com/theme/freelancer/')
-                        i.fas.fa-download.me-2
                         | Free Download!
 
         // Contact Section
@@ -149,9 +133,6 @@ html(lang='en')
                 h2.page-section-heading.text-center.text-uppercase.text-secondary.mb-0 Contact Me
                 // Icon Divider
                 .divider-custom
-                    .divider-custom-line
-                    .divider-custom-icon
-                        i.fas.fa-star
                     .divider-custom-line
                 // Contact Section Form
                 .row.justify-content-center
@@ -253,13 +234,13 @@ html(lang='en')
                     .col-lg-4.mb-5.mb-lg-0
                         h4.text-uppercase.mb-4 Around the Web
                         a.btn.btn-outline-light.btn-social.mx-1(href='#!')
-                            i.fab.fa-fw.fa-facebook-f
+                            | A
                         a.btn.btn-outline-light.btn-social.mx-1(href='#!')
-                            i.fab.fa-fw.fa-twitter
+                            | B
                         a.btn.btn-outline-light.btn-social.mx-1(href='#!')
-                            i.fab.fa-fw.fa-linkedin-in
+                            | C
                         a.btn.btn-outline-light.btn-social.mx-1(href='#!')
-                            i.fab.fa-fw.fa-dribbble
+                            | D
                     // Footer About Text
                     .col-lg-4
                         h4.text-uppercase.mb-4 About Freelancer
