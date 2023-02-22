@@ -11,11 +11,11 @@
 // Custom hover effect
 .btn-outline-light{
     border-color: $light;
-    color: $light;
+    color: $light !important;
 
     &:hover {
         background-color: $light;
-        color: $primary;
+        color: $secondary !important;
     }
 }
 
