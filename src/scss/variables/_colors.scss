@@ -3,13 +3,13 @@
 // 
 
 // Override primary color
-$background: $oc-orange-0;
 $light: $oc-gray-0;
 $dark: $oc-gray-9;
 $grayed: $oc-gray-5;
-$primary: $oc-orange-7;
-$secondary: $oc-lime-7;
-$tertiary: $oc-cyan-7;
+$background: $oc-orange-0;
+$primary: $oc-cyan-8;
+$secondary: $oc-cyan-9;
+$tertiary: $oc-orange-9;
 
 // The contrast ratio to reach against white, to determine if color changes from "light" to "dark". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.
 // See https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast
