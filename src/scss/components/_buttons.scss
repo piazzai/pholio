@@ -8,6 +8,17 @@
     font-size: 1.25rem;
 }
 
+// Custom hover effect
+.btn-outline-light{
+    border-color: $light;
+    color: $light;
+
+    &:hover {
+        background-color: $light;
+        color: $primary;
+    }
+}
+
 // Custom social buttons
 .btn-social {
     border-radius: 100%;
