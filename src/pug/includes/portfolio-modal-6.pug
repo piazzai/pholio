@@ -9,12 +9,13 @@
                     .row.justify-content-center
                         .col-lg-8
                             // Portfolio Modal - Title
-                            h2.portfolio-modal-title.text-secondary.text-lowercase.mb-0 Submarine
+                            h2.portfolio-modal-title.text-secondary.text-lowercase.mb-0 Embedded Video
                             // Icon Divider
                             .divider-custom
                                 .divider-custom-line
-                            // Portfolio Modal - Image
-                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/submarine.png', alt='...')
+                            // Portfolio Modal - Video
+                            .position-relative.mb-5(style='padding:50% 0 0 0;')
+                                iframe.position-absolute.top-0.start-0.w-100.h-100(src='https://player.vimeo.com/video/156540658?h=fed24ad1fd&portrait=0', allowfullscreen)
                             // Portfolio Modal - Text
                             p.text-black.mb-4
                                 | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
