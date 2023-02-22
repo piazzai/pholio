@@ -1,60 +1,87 @@
-// 
+//
 // Global
-// 
+//
 
 // Scroll padding for all scroll targets on page used with
 // native CSS smooth scrolling
-// 
+//
 // https://caniuse.com/?search=scroll-padding
 
 html {
-    height: 100%;
-    scroll-padding-top: calc(#{$navbar-height} - 1px);
+  height: 100%;
+  scroll-padding-top: calc(#{$navbar-height} - 1px);
 }
 
 body {
-    background-color: $background;
+  background-color: $background;
 
-    .text-white {
-        color: $light !important;
+  .text-white {
+    color: $light !important;
+  }
+
+  .text-black {
+    color: $dark !important;
+  }
+
+  .link-light {
+    color: $tertiary !important;
+    &:hover {
+      color: darken($tertiary, 10%) !important;
+    }
+  }
+
+  .link-dark {
+    color: $secondary !important;
+    &:hover {
+      color: darken($secondary, 10%) !important;
+    }
+  }
+
+  p.lead {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+  }
+
+  ul, ol, dl {
+    li {
+      margin-left: 2rem;
     }
 
-    .text-black {
-        color: $dark !important;
+    li, p, dt, dd {
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+      margin-bottom: 0;
+  
+      @include media-breakpoint-up(lg) {
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
     }
+  }
 
-    a {
-        color: $tertiary;
-
-        &:hover {
-            color: darken($tertiary, 10%);
-        }
-    }
-
-    p.lead {
-        font-size: 1.25rem;
-        line-height: 1.5rem;
-
-        @include media-breakpoint-up(lg) {
-            font-size: 1.5rem;
-            line-height: 2rem;
-        }
-    }
+  strong {
+    font-weight: bold;
+  }
 }
 
 // Styling for page sections
 .page-section {
-    padding: 6rem 0;
+  padding: 6rem 0;
 
+  .page-section-heading {
+    font-size: 3rem;
+    line-height: 2rem;
+  }
+
+  @include media-breakpoint-up(lg) {
     .page-section-heading {
-        font-size: 3rem;
-        line-height: 2rem;
+      font-size: 4rem;
+      line-height: 3rem;
     }
-
-    @include media-breakpoint-up(lg) {
-        .page-section-heading {
-            font-size: 4rem;
-            line-height: 3rem;
-        }
-    }
+  }
 }
