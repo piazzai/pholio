@@ -9,12 +9,52 @@
                     .row.justify-content-center
                         .col-lg-8
                             // Portfolio Modal - Title
-                            h2.portfolio-modal-title.text-secondary.text-lowercase.mb-0 Locked Safe
+                            h2.portfolio-modal-title.text-secondary.text-lowercase.mb-0 Carousel with Crossfade
                             // Icon Divider
                             .divider-custom
                                 .divider-custom-line
-                            // Portfolio Modal - Image
-                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/safe.png', alt='...')
+                            // Portfolio Modal - Carousel with Crossfade
+                            #carouselFade.carousel.slide.carousel-fade(data-bs-ride='carousel')
+                                .carousel-indicators
+                                    button.btn-light(type='button', data-bs-target='#carouselFade', data-bs-slide-to='0', aria-label='Slide 1')
+                                    button.btn-light(type='button', data-bs-target='#carouselFade', data-bs-slide-to='1', aria-label='Slide 2')
+                                    button.btn-light(type='button', data-bs-target='#carouselFade', data-bs-slide-to='2', aria-label='Slide 3')
+                                    button.btn-light(type='button', data-bs-target='#carouselFade', data-bs-slide-to='3', aria-label='Slide 4')
+                                    button.btn-light.active(type='button', data-bs-target='#carouselFade', data-bs-slide-to='4', aria-label='Slide 5', aria-current='true')
+                                    button.btn-light(type='button', data-bs-target='#carouselFade', data-bs-slide-to='5', aria-label='Slide 6')
+                                .carousel-inner.rounded.mb-5
+                                    .carousel-item
+                                        img.d-block.w-100(src='assets/img/portfolio/cabin.png', alt='...')
+                                        .carousel-caption.d-none.d-md-block
+                                            h5.text-white.text-lowercase Lorem ipsum dolor sit amet
+                                    .carousel-item
+                                        img.d-block.w-100(src='assets/img/portfolio/cake.png', alt='...')
+                                        .carousel-caption.d-none.d-md-block
+                                            h5.text-white.text-lowercase Consectetur adipisicing elit
+                                    .carousel-item
+                                        img.d-block.w-100(src='assets/img/portfolio/circus.png', alt='...')
+                                        .carousel-caption.d-none.d-md-block
+                                            h5.text-white.text-lowercase Mollitia neque assumenda
+                                    .carousel-item
+                                        img.d-block.w-100(src='assets/img/portfolio/game.png', alt='...')
+                                        .carousel-caption.d-none.d-md-block
+                                            h5.text-white.text-lowercase Ipsam nihil, molestias magnam
+                                    .carousel-item.active
+                                        img.d-block.w-100(src='assets/img/portfolio/safe.png', alt='...')
+                                        .carousel-caption.d-none.d-md-block
+                                            h5.text-white.text-lowercase Recusandae quos quis inventore
+                                    .carousel-item
+                                        img.d-block.w-100(src='assets/img/portfolio/submarine.png', alt='...')
+                                        .carousel-caption.d-none.d-md-block
+                                            h5.text-white.text-lowercase Quisquam velit asperiores
+                                button.carousel-control-prev(type='button', data-bs-target='#carouselFade', data-bs-slide='prev')
+                                    span.carousel-control-prev-icon(aria-hidden='true')
+                                    span.visually-hidden
+                                        | Previous
+                                button.carousel-control-next(type='button', data-bs-target='#carouselFade', data-bs-slide='next')
+                                    span.carousel-control-next-icon(aria-hidden='true')
+                                    span.visually-hidden 
+                                        | Next
                             // Portfolio Modal - Text
                             p.text-black.mb-4
                                 | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
