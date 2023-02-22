@@ -35,7 +35,7 @@ html(lang='en')
                         li.nav-item.mx-0.mx-lg-1
                             a.nav-link.py-3.px-0.px-lg-3.rounded(href='#about') About
                         li.nav-item.mx-0.mx-lg-1
-                            a.nav-link.py-3.px-0.px-lg-3.rounded(href='#contact') Contact
+                            a.nav-link.py-3.px-0.px-lg-3.rounded(href='#activities') Activities
 
         // Masthead
         header.masthead.bg-primary.text-white.text-center
@@ -128,14 +128,20 @@ html(lang='en')
                     a.btn.btn-xl.btn-outline-light.fw-bold(href='https://github.com/piazzai/pholio') Drive adoption!
 
         // Activities
-        section#contact.page-section
+        section#activities.page-section
             .container
                 // Heading
-                h2.page-section-heading.text-center.text-lowercase.text-secondary.mb-0 Contact
+                h2.page-section-heading.text-center.text-lowercase.text-secondary.mb-0 Activities
                 // Divider
                 .divider-custom
                     .divider-custom-line
                 // Content
+                .row
+                    ol.list-group.list-group.numbered
+                        li.list-group-item.d-flex.justify-content-between.align-items-start
+                            .ms-2.me-auto
+                                p.fw-bold Subheading 
+                                p Cras justo odio
 
         // Footer
         footer.footer.text-center
@@ -185,10 +191,3 @@ html(lang='en')
 
         // Core theme JS
         script(src='js/scripts.js')
-
-        // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-        // * *                               SB Forms JS                               * *
-        // * * Activate your form at https://startbootstrap.com/solution/contact-forms * *
-        // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-
-        script(src='https://cdn.startbootstrap.com/sb-forms-latest.js')
