@@ -23,6 +23,14 @@ body {
         color: $dark !important;
     }
 
+    a {
+        color: $tertiary;
+
+        &:hover {
+            color: darken($tertiary, 10%);
+        }
+    }
+
     p.lead {
         font-size: 1.25rem;
         line-height: 1.5rem;
