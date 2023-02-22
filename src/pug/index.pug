@@ -40,27 +40,27 @@ html(lang='en')
         // Masthead
         header.masthead.bg-primary.text-white.text-center
             .container.d-flex.align-items-center.flex-column
-                // Masthead Avatar Image
+                // Avatar
                 img.masthead-avatar.mb-5.rounded-circle(src='assets/img/photo.jpg', alt='...')
-                // Masthead Heading
+                // Heading
                 h1.masthead-heading.text-lowercase.mb-0 Pholio
-                // Icon Divider
+                // Divider
                 .divider-custom.divider-light
                     .divider-custom-line
-                // Masthead Subheading
+                // Subheading
                 p.masthead-subheading.font-weight-light.mb-0 Custom Bootstrap portfolio theme
 
-        // Portfolio Section
+        // Portfolio
         section#portfolio.page-section.portfolio
             .container
-                // Portfolio Section Heading
+                // Heading
                 h2.page-section-heading.text-center.text-lowercase.text-secondary.mb-0 Portfolio
-                // Icon Divider
+                // Divider
                 .divider-custom
                     .divider-custom-line
-                // Portfolio Grid Items
+                // Grid
                 .row.justify-content-center
-                    // Portfolio Item 1
+                    // Item 1
                     .col-md-6.col-lg-4.mb-5
                         .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal1')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
@@ -68,7 +68,7 @@ html(lang='en')
                                     em Project 1
                                     p Image
                             img.img-fluid(src='assets/img/portfolio/image.jpg', alt='...')
-                    // Portfolio Item 2
+                    // Item 2
                     .col-md-6.col-lg-4.mb-5
                         .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal2')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
@@ -76,7 +76,7 @@ html(lang='en')
                                     em Project 2
                                     p Carousel with controls
                             img.img-fluid(src='assets/img/portfolio/carousel-controls-1.jpg', alt='...')
-                    // Portfolio Item 3
+                    // Item 3
                     .col-md-6.col-lg-4.mb-5
                         .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal3')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
@@ -84,7 +84,7 @@ html(lang='en')
                                     em Project 3
                                     p Carousel with indicators
                             img.img-fluid(src='assets/img/portfolio/carousel-indicators-1.jpg', alt='...')
-                    // Portfolio Item 4
+                    // Item 4
                     .col-md-6.col-lg-4.mb-5.mb-lg-0
                         .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal4')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
@@ -92,7 +92,7 @@ html(lang='en')
                                     em Project 4
                                     p Carousel with captions
                             img.img-fluid(src='assets/img/portfolio/carousel-captions-1.jpg', alt='...')
-                    // Portfolio Item 5
+                    // Item 5
                     .col-md-6.col-lg-4.mb-5.mb-md-0
                         .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal5')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
@@ -100,7 +100,7 @@ html(lang='en')
                                     em Project 5
                                     p Carousel with crossfade
                             img.img-fluid(src='assets/img/portfolio/carousel-crossfade-1.jpg', alt='...')
-                    // Portfolio Item 6
+                    // Item 6
                     .col-md-6.col-lg-4
                         .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal6')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
@@ -109,116 +109,33 @@ html(lang='en')
                                     p Video
                             img.img-fluid(src='assets/img/portfolio/video.jpg', alt='...')
 
-        // About Section
+        // About
         section#about.page-section.bg-primary.text-white.mb-0
             .container
-                // About Section Heading
+                // Heading
                 h2.page-section-heading.text-center.text-lowercase.text-white About
-                // Icon Divider
+                // Divider
                 .divider-custom.divider-light
                     .divider-custom-line
-                // About Section Content
+                // Content
                 .row
                     .col-lg-4.ms-auto
                         p.lead A holistic understanding of usage can aid in prioritizing first-order strategies. We need to leverage our synergies. Productize line items or go back to the drawing board. How about scaling deliverables to a global audience? Let's solutionize this right now.
                     .col-lg-4.me-auto
                         p.lead Get all your ducks in a row, but with machine learning. Pivot to a shotgun approach. Big data! Optics! Weaponize the cloud and level the playing field. We need to synergize our leverage, so samepage all stakeholders.
-                // About Section Button
+                // Button
                 .text-center.mt-4
                     a.btn.btn-xl.btn-outline-light.fw-bold(href='https://github.com/piazzai/pholio') Drive adoption!
 
-        // Contact Section
+        // Activities
         section#contact.page-section
             .container
-                // Contact Section Heading
+                // Heading
                 h2.page-section-heading.text-center.text-lowercase.text-secondary.mb-0 Contact
-                // Icon Divider
+                // Divider
                 .divider-custom
                     .divider-custom-line
-                // Contact Section Form
-                .row.justify-content-center
-                    .col-lg-8.col-xl-7
-
-                        // * * * * * * * * * * * * * * *
-                        // * * SB Forms Contact Form * *
-                        // * * * * * * * * * * * * * * *
-
-                        // This form is pre-integrated with SB Forms.
-                        // To make this form functional, sign up at
-                        // https://startbootstrap.com/solution/contact-forms
-                        // to get an API token!
-
-                        form#contactForm(data-sb-form-api-token='API_TOKEN')
-
-                            // Name input
-                            .form-floating.mb-3
-                                input#name.form-control(
-                                    type='text',
-                                    placeholder='Enter your name...',
-                                    data-sb-validations='required'
-                                )
-                                label(for='name') Full name
-                                .invalid-feedback(data-sb-feedback='name:required')
-                                    | A name is required.
-
-                            // Email address input
-                            .form-floating.mb-3
-                                input#email.form-control(
-                                    type='email',
-                                    placeholder='name@example.com',
-                                    data-sb-validations='required,email'
-                                )
-                                label(for='email') Email address
-                                .invalid-feedback(data-sb-feedback='email:required')
-                                    | An email is required.
-                                .invalid-feedback(data-sb-feedback='email:email')
-                                    | Email is not valid.
-
-                            // Phone number input
-                            .form-floating.mb-3
-                                input#phone.form-control(
-                                    type='tel',
-                                    placeholder='(123) 456-7890',
-                                    data-sb-validations='required'
-                                )
-                                label(for='phone') Phone number
-                                .invalid-feedback(data-sb-feedback='phone:required')
-                                    | A phone number is required.
-
-                            // Message input
-                            .form-floating.mb-3
-                                textarea#message.form-control(
-                                    type='text',
-                                    placeholder='Enter your message here...',
-                                    style='height: 10rem;',
-                                    data-sb-validations='required'
-                                )
-                                label(for='message') Message
-                                .invalid-feedback(data-sb-feedback='message:required')
-                                    | A message is required.
-
-                            // Submit success message
-                            //
-                            // This is what your users will see when the form
-                            // has successfully submitted
-
-                            #submitSuccessMessage.d-none
-                                .text-center.mb-3
-                                    .fw-bolder Form submission successful!
-                                    | To activate this form, sign up at
-                                    br
-                                    a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
-
-                            // Submit error message
-                            //
-                            // This is what your users will see when there is
-                            // an error submitting the form
-
-                            #submitErrorMessage.d-none
-                                .text-center.text-danger.mb-3 Error sending message!
-
-                            // Submit Button
-                            button#submitButton.btn.btn-primary.btn-xl.disabled(type='submit') Send
+                // Content
 
         // Footer
         footer.footer.text-center
