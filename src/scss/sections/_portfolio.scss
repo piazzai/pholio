@@ -43,13 +43,22 @@
     }
 
     .btn {
+        color: $light;
         font-size: 1.25rem;
+    }
+
+    .btn-light {
+        background-color: $light;
     }
 
     .btn-close {
         color: $primary;
         font-size: 2rem;
         padding: 1rem;
+    }
+
+    .modal-content {
+        background-color: $background;
     }
 
     .portfolio-modal-title {
