@@ -39,16 +39,17 @@ html(lang='en')
 
         // Masthead
         header.masthead.bg-image.text-white.text-center(style="background-image:url('assets/img/cover.jpg');height:100vh;background-size:cover;")
-            .container.d-flex.align-items-center.flex-column
-                // Avatar
-                img.masthead-avatar.mb-5.rounded-circle.shadow(src='assets/img/photo.jpg', alt='...')
-                // Heading
-                h1.masthead-heading.text-lowercase.mb-0 Pholio
-                // Divider
-                .divider-custom.divider-light
-                    .divider-custom-line
-                // Subheading
-                p.masthead-subheading.font-weight-light.mb-0 Custom Bootstrap portfolio theme
+            .jumbotron.position-absolute.top-50.start-50.translate-middle
+                .container.d-flex.align-items-center.flex-column
+                    // Avatar
+                    img.masthead-avatar.mb-5.rounded-circle.shadow(src='assets/img/photo.jpg', alt='...')
+                    // Heading
+                    h1.masthead-heading.text-lowercase.mb-0 Pholio
+                    // Divider
+                    .divider-custom.divider-light
+                        .divider-custom-line
+                    // Subheading
+                    p.masthead-subheading.font-weight-light.mb-0 Custom Bootstrap portfolio theme
 
         // Portfolio
         section#portfolio.page-section.portfolio
