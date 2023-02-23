@@ -1,8 +1,8 @@
 # pholio
 
-Pholio is a responsive one-page theme for an online portfolio website. Its main feature is a grid of project cards. On click, these open pop-up windows where further details about a project are displayed, together with an image, a carousel (available in various flavors), or an embedded video. Two more sections are included to provide more about the user, such as a biography or a professional statement.
+Pholio is a responsive one-page theme for an online portfolio website. Its main feature is a grid of project cards: on click, these open pop-up windows where more details about a project are displayed, together with an image, a carousel (available in various flavors), or an embedded video. Two more sections are included to provide more information about the user, such as a biography or a professional statement.
 
-The typography is based on the [Alegreya Sans family](https://www.huertatipografica.com/en/fonts/alegreya-sans-ht), which adds a calligraphic touch to the traditional cleanliness and legibility of sans-serif typefaces. Additional liveliness is provided by the use of [Typed.js](https://mattboldt.com/demos/typed-js/) to alternate between subheadings in the title section. The theme ships with a 404 page that links back to the index.
+The typography is based on the [Alegreya Sans family](https://www.huertatipografica.com/en/fonts/alegreya-sans-ht), which adds a calligraphic touch to the traditional cleanliness and legibility of sans-serif typefaces. Additional liveliness is provided by the use of [Typed.js](https://mattboldt.com/demos/typed-js/) in the title section. The theme ships with a 404 page that links back to the index.
 
 Visit the [demo website](https://pholio.netlify.app) to see the theme in action.
 
