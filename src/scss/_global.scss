@@ -25,6 +25,7 @@ body {
 
   .link-light {
     color: $tertiary !important;
+    text-decoration: none;
     &:hover {
       color: darken($tertiary, 10%) !important;
     }
@@ -32,6 +33,7 @@ body {
 
   .link-dark {
     color: $secondary !important;
+    text-decoration: none;
     &:hover {
       color: darken($secondary, 10%) !important;
     }
