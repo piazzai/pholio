@@ -2,7 +2,7 @@
   "title": "pholio",
   "name": "pholio",
   "version": "1.0.0",
-  "description": "Custom Bootstrap portfolio theme",
+  "description": "Bootstrap portfolio theme",
   "scripts": {
     "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
     "build:assets": "node scripts/build-assets.js",
