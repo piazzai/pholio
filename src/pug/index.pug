@@ -20,6 +20,9 @@ html(lang='en')
         // Style
         link(href='css/styles.css', rel='stylesheet')
 
+        // Typed JS
+        script(src='js/typed.js')
+
     body#page-top
 
         // Navigation
@@ -50,9 +53,10 @@ html(lang='en')
                         .divider-custom-line
                     // Subheading
                     #typed-strings
-                        p Bootstrap portfolio theme
-                        p Demo website
+                        p Online portfolio theme
+                        p Built with Pug
                     p.masthead-subheading.font-weight-light.mb-0 &#8203;#[span#typed]
+                    script var typed = new Typed("#typed", {stringsElement: "#typed-strings", backSpeed: 10, typeSpeed: 30, backDelay: 1000, loop: true, showCursor: false});
 
         // Portfolio
         section#portfolio.page-section.portfolio
@@ -216,9 +220,6 @@ html(lang='en')
 
         // Font Awesome JS
         script(src='js/all.js')
-
-        // Typed JS
-        script(src='js/typed.js')
 
         // Theme JS
         script(src='js/scripts.js')
