@@ -16,6 +16,16 @@ Visit the [demo website](https://pholio.netlify.app) to see the theme in action.
 
 ## Usage
 
+### Basic
+
+### Advanced
+
+Users familiar with [Node.js](https://nodejs.org/en/) can build the site from source. First, you need to install dependencies by running `npm install` in the root folder. Then, you can build the site by running `npm start`. If you change the list of the dependencies in `package.json`, you will need to install again.
+
+The main difference with basic usage is that you have to edit files in the `src` folder. Content editing takes place in Pug files within `src/pug` ([see the docs](https://pugjs.org/)). To change style elements, including type and color scheme, you can edit SCSS files in `src/scss`. Like before, you can customize favicons in the `assets` folder, and naturally, you have to customize cover, avatar, and portfolio images in `assets/img`.
+
+Upon running `npm start`, source files get compiled into the `dist` folder. Upload this folder to whatever service is hosting your website.
+
 ## Credits
 
 The theme would not exist without the following projects:
