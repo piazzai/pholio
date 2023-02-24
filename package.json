@@ -18,21 +18,21 @@
     "url": "git+https://github.com/piazzai/pholio.git"
   },
   "dependencies": {
-    "bootstrap": "5.2.3",
-    "open-color": "1.9.1",
-    "typed.js": "2.0.12"
+    "bootstrap": "^5.2.3",
+    "open-color": "^1.9.1",
+    "typed.js": "^2.0.12"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.13",
-    "browser-sync": "2.27.11",
-    "chokidar": "3.5.3",
-    "concurrently": "7.6.0",
-    "postcss": "8.4.21",
-    "prettier": "2.8.4",
-    "pug": "3.0.2",
-    "sass": "1.58.3",
-    "shelljs": "0.8.5",
-    "upath": "2.0.1"
+    "autoprefixer": "^10.4.13",
+    "browser-sync": "^2.27.11",
+    "chokidar": "^3.5.3",
+    "concurrently": "^7.6.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
+    "pug": "^3.0.2",
+    "sass": "^1.58.3",
+    "shelljs": "^0.8.5",
+    "upath": "^2.0.1"
   },
   "author": "Michele Piazzai",
   "license": "MIT",
