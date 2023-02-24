@@ -14,6 +14,8 @@
         <link rel="manifest" href="assets/site.webmanifest" />
         <!-- Style-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Typed JS-->
+        <script src="js/typed.js"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -42,13 +44,16 @@
                     <div class="divider-custom divider-dark"><div class="divider-custom-line"></div></div>
                     <!-- Subheading-->
                     <div id="typed-strings">
-                        <p>Bootstrap portfolio theme</p>
-                        <p>Demo website</p>
+                        <p>Online portfolio theme</p>
+                        <p>Built with Pug</p>
                     </div>
                     <p class="masthead-subheading font-weight-light mb-0">
                         &#8203;
                         <span id="typed"></span>
                     </p>
+                    <script>
+                        var typed = new Typed('#typed', { stringsElement: '#typed-strings', backSpeed: 10, typeSpeed: 30, backDelay: 1000, loop: true, showCursor: false });
+                    </script>
                 </div>
             </div>
         </header>
@@ -510,8 +515,6 @@
         <script src="js/bootstrap.js"></script>
         <!-- Font Awesome JS-->
         <script src="js/all.js"></script>
-        <!-- Typed JS-->
-        <script src="js/typed.js"></script>
         <!-- Theme JS-->
         <script src="js/scripts.js"></script>
     </body>
