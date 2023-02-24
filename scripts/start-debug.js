@@ -7,7 +7,7 @@ const { result } = concurrently([
     { command: 'node --inspect scripts/watch.js', name: 'WATCH', prefixColor: 'bgBlue.bold' },
     { 
         command: `${browserSyncPath} dist -w --no-online`,
-        name: 'BROWSER_SYNC', 
+        name: 'SYNC', 
         prefixColor: 'bgBlue.bold',
     }
 ], {
