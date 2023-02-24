@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>pholio</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+        <link rel="manifest" href="assets/site.webmanifest" />
+        <!-- Style-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- Typed JS-->
+        <script src="js/typed.js"></script>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-lowercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Pholio Theme</a>
+                <button class="navbar-toggler text-lowercase fw-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu</button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#lorem">Lorem</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#ipsum">Ipsum</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-image text-center" style="background-image: url('assets/img/cover.jpg'); height: 100vh; background-size: cover">
+            <div class="jumbotron position-absolute top-50 start-50 translate-middle">
+                <div class="container d-flex align-items-center flex-column">
+                    <!-- Avatar-->
+                    <img class="masthead-avatar mb-5 rounded-circle shadow" src="assets/img/photo.jpg" alt="..." />
+                    <!-- Heading-->
+                    <h1 class="masthead-heading text-lowercase mb-0">Pholio</h1>
+                    <!-- Divider-->
+                    <div class="divider-custom divider-dark"><div class="divider-custom-line"></div></div>
+                    <!-- Subheading-->
+                    <div id="typed-strings">
+                        <p>Custom Bootstrap portfolio theme</p>
+                        <p>Demo website</p>
+                    </div>
+                    <p class="masthead-subheading font-weight-light mb-0">
+                        &#8203;
+                        <span id="typed"></span>
+                    </p>
+                    <script>
+                        var typed = new Typed('#typed', { stringsElement: '#typed-strings', backSpeed: 10, typeSpeed: 30, backDelay: 1000, loop: true, showCursor: false });
+                    </script>
+                </div>
+            </div>
+        </header>
+        <!-- Portfolio-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Heading-->
+                <h2 class="page-section-heading text-center text-lowercase text-secondary mb-0">Portfolio</h2>
+                <!-- Divider-->
+                <div class="divider-custom"><div class="divider-custom-line"></div></div>
+                <!-- Grid-->
+                <div class="row justify-content-center">
+                    <!-- Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <em>Project 1</em>
+                                    <p>Image</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/project-1.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <em>Project 2</em>
+                                    <p>Carousel with controls</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/project-2-a.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <em>Project 3</em>
+                                    <p>Carousel with indicators</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/project-3-a.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <em>Project 4</em>
+                                    <p>Carousel with captions</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/project-4-a.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <em>Project 5</em>
+                                    <p>Carousel with crossfade</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/project-5-a.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Item 6-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <em>Project 6</em>
+                                    <p>Video</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/project-6.jpg" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Lorem-->
+        <section class="page-section bg-primary text-white mb-0" id="lorem">
+            <div class="container">
+                <!-- Heading-->
+                <h2 class="page-section-heading text-center text-lowercase text-white">Lorem</h2>
+                <!-- Divider-->
+                <div class="divider-custom divider-light"><div class="divider-custom-line"></div></div>
+                <!-- Content-->
+                <div class="row">
+                    <div class="col-lg-4 ms-auto"><p class="lead">A holistic understanding of usage can aid in prioritizing first-order strategies. We need to leverage our synergies. Productize line items or go back to the drawing board. How about scaling deliverables to a global audience? Let's solutionize this right now.</p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">Get all your ducks in a row, but with machine learning. Pivot to a shotgun approach. Big data pipelines. Weaponize the cloud and drive adoption. We need to synergize our leverages... Onward and upward!</p></div>
+                </div>
+                <!-- Button-->
+                <div class="text-center mt-4"><a class="btn btn-xl btn-outline-light fw-bold" href="https://github.com/piazzai/pholio">Source code</a></div>
+            </div>
+        </section>
+        <!-- Ipsum-->
+        <section class="page-section" id="ipsum">
+            <div class="container">
+                <!-- Heading-->
+                <h2 class="page-section-heading text-center text-lowercase text-secondary mb-0">Ipsum</h2>
+                <!-- Divider-->
+                <div class="divider-custom"><div class="divider-custom-line"></div></div>
+                <!-- Content-->
+                <div class="col-lg-8 ms-auto me-auto text-black">
+                    <div class="row">
+                        <p class="lead">That is a good problem to have! Good optics. Socialize the comms with the wider stakeholder community: we want to empower the team with the right tools and guidance to uplevel our craft and build better customer-centric core competencies.</p>
+                        <p class="lead">Think big, start small, and scale fast to energize our clients. Those options are already baked in, so what's the go-to-market strategy? Message the initiative to kickstart viral engagement, translating our vision of having a buzzworthy roadmap programmatically.</p>
+                        <p class="lead">Products need full resourcing and support from a cross-functional team in order to be uplifted and evolved. Schedule standups during sprints to review all KPIs, then recap by EOD or COB, whatever is soonest. Paddle on both sides of the workflow ecosystem.</p>
+                    </div>
+                    <div class="row">
+                        <h3 class="text-lowercase">Organic growth</h3>
+                        <ul>
+                            <li><p>Minimize backward overflow, but groom the backlog.</p></li>
+                            <li><p>Diversify goalposts and windows of opportunity.</p></li>
+                            <li><p>Future-proof the parallel path.</p></li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <h3 class="text-lowercase">Impactful baseline</h3>
+                        <ol>
+                            <li><p>Prethink post-launch.</p></li>
+                            <li><p>Identify pain points.</p></li>
+                            <li><p>Ladder back to the strategy.</p></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Contact-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-lowercase mb-4">Contact</h4>
+                        <!-- p.lead.mb-0 #[a.link-light(href='mailto:username@domain.com') username@domain.com] #[br] #[a.link-light(href='tel:+1234567890') +1 234 567 890] #[br] 123 Main St, Anytown, USA-->
+                        <p class="lead mb-0">
+                            <span>123 Main St, Anytown, USA</span>
+                            <br />
+                            <a class="link-light" href="mailto:username@domain.com">username@domain.com</a>
+                            <br />
+                            <a class="link-light" href="tel:+1234567890">+1 234 567 890</a>
+                        </p>
+                    </div>
+                    <!-- Social-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-lowercase mb-4">Social</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com"><i class="fab fa-fw fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://vimeo.com"><i class="fab fa-fw fa-vimeo-v"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.pinterest.com/"><i class="fab fa-fw fa-pinterest-p"></i></a>
+                    </div>
+                    <!-- About-->
+                    <div class="col-lg-4">
+                        <h4 class="text-lowercase mb-4">About</h4>
+                        <p class="lead mb-0">
+                            Pholio is an open-source, MIT-licensed portfolio theme based on
+                            <a class="link-light" href="https://startbootstrap.com/theme/freelancer">Freelancer</a>
+                            by StartBootstrap.
+                            <a class="link-light" href="https://github.com/piazzai/pholio/fork">Fork it</a>
+                            now!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; 2023 Pholio. All rights reserved.</small></div>
+        </div>
+        <!-- Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-lowercase mb-0">Image</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom"><div class="divider-custom-line"></div></div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/project-1.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <div class="text-black text-start mb-4">
+                                        <p>Let us wax poetic about the beauty of the cheeseburger. The flavour gracefully dances across your palate like a majestic figure skater on ice.</p>
+                                        <p>The cheese melts on the burger and in your mouth, perfectly complementing the medium-rare beef. Any burger lover worth their salt knows the best patty is comprised of ground chuck and brisket.</p>
+                                        <p>Whether you're a ketchup and mustard loyalist or you prefer house sauce to no sauce, you can agree that every cheeseburger has its own special flair.</p>
+                                        <h3 class="text-lowercase">Top tip</h3>
+                                        <p>House sauce begs to be ordered on the side for fry-dipping purposes.</p>
+                                    </div>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-lowercase mb-0">Carousel with controls</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom"><div class="divider-custom-line"></div></div>
+                                    <!-- Portfolio Modal - Carousel with controls-->
+                                    <div class="carousel slide" id="project2" data-bs-ride="carousel">
+                                        <div class="carousel-inner rounded mb-5">
+                                            <div class="carousel-item active"><img class="d-block w-100" src="assets/img/portfolio/project-2-a.jpg" alt="..." /></div>
+                                            <div class="carousel-item"><img class="d-block w-100" src="assets/img/portfolio/project-2-b.jpg" alt="..." /></div>
+                                            <div class="carousel-item"><img class="d-block w-100" src="assets/img/portfolio/project-2-c.jpg" alt="..." /></div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#project2" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#project2" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <div class="text-black text-start mb-4">
+                                        <p>
+                                            They say you're never supposed to meet your idols.
+                                            <br />
+                                            In this case, it's a good thing your idol is inanimate!
+                                        </p>
+                                        <p>Cheeseburgers are never going to give you up or let you down. They'll also never run around or desert you. They'll never make you cry, unless it's from sheer joy. Cheeseburgers certainly won't say goodbye either. Finally, cheeseburgers are incapable of telling lies or hurting you.</p>
+                                        <p>On the flip side, they can still Rick Roll you.</p>
+                                    </div>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-lowercase mb-0">Carousel with indicators</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom"><div class="divider-custom-line"></div></div>
+                                    <!-- Portfolio Modal - Carousel with indicators-->
+                                    <div class="carousel slide" id="project3" data-bs-ride="carousel">
+                                        <div class="carousel-indicators">
+                                            <button class="btn-light active" type="button" data-bs-target="#project3" data-bs-slide-to="0" aria-label="Slide 1" aria-current="true"></button>
+                                            <button class="btn-light" type="button" data-bs-target="#project3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button class="btn-light" type="button" data-bs-target="#project3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        </div>
+                                        <div class="carousel-inner rounded mb-5">
+                                            <div class="carousel-item active"><img class="d-block w-100" src="assets/img/portfolio/project-3-a.jpg" alt="..." /></div>
+                                            <div class="carousel-item"><img class="d-block w-100" src="assets/img/portfolio/project-3-b.jpg" alt="..." /></div>
+                                            <div class="carousel-item"><img class="d-block w-100" src="assets/img/portfolio/project-3-c.jpg" alt="..." /></div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#project3" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#project3" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <div class="text-black text-start mb-4">
+                                        <p>There is debate on who painstakingly birthed our favourite monumental flavor creation into existence. What really matters is that, at the end of the day, we can collectively relish in the sweet glory of it all. From beef-to-bun ratio, "how much is too much?" cheese, and the careful alchemy of condiments, every cheeseburger is a small mountain of heaven.</p>
+                                        <p>Any day without a cheeseburger in it is a waste. You can find a cheeseburger no matter where you go in the world, so you have no excuse to miss out on the glory that some people can only dream of. Step up to the plate.</p>
+                                    </div>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-lowercase mb-0">Carousel with captions</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom"><div class="divider-custom-line"></div></div>
+                                    <!-- Portfolio Modal - Carousel with captions-->
+                                    <div class="carousel slide" id="project4" data-bs-ride="carousel">
+                                        <div class="carousel-indicators">
+                                            <button class="btn-light active" type="button" data-bs-target="#project4" data-bs-slide-to="0" aria-label="Slide 1" aria-current="true"></button>
+                                            <button class="btn-light" type="button" data-bs-target="#project4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button class="btn-light" type="button" data-bs-target="#project4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        </div>
+                                        <div class="carousel-inner rounded mb-5">
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" src="assets/img/portfolio/project-4-a.jpg" alt="..." />
+                                                <div class="carousel-caption d-none d-md-block"><h5 class="text-white text-lowercase">Cheeseburgers are like a metaphor for life</h5></div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="assets/img/portfolio/project-4-b.jpg" alt="..." />
+                                                <div class="carousel-caption d-none d-md-block"><h5 class="text-white text-lowercase">All the good stuff is in the middle</h5></div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="assets/img/portfolio/project-4-c.jpg" alt="..." />
+                                                <div class="carousel-caption d-none d-md-block"><h5 class="text-white text-lowercase">But the rest of it is necessary too</h5></div>
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#project4" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#project4" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <div class="text-black text-start mb-4">
+                                        <p>Think of cheeseburgers like a Tinder match. They might not all be your soulmate but you've gotta find out to be sure. It can get a little messy and that's just part of the fun.</p>
+                                        <p>Some are cheesy, others can be a little dry, and the rare few are a disaster. There are so many cheeseburgers out there it can be hard to commit to just one favourite. That being said, when you know, you just know.</p>
+                                        <p>Everyone has their perfect match. Sometimes it's just around the corner, other times you have to travel the world in search of it. Wherever your perfect cheeseburger is, it's out there.</p>
+                                    </div>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-lowercase mb-0">Carousel with crossfade</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom"><div class="divider-custom-line"></div></div>
+                                    <!-- Portfolio Modal - Carousel with crossfade-->
+                                    <div class="carousel slide carousel-fade" id="project5" data-bs-ride="carousel">
+                                        <div class="carousel-indicators">
+                                            <button class="btn-light active" type="button" data-bs-target="#project5" data-bs-slide-to="0" aria-label="Slide 1" aria-current="true"></button>
+                                            <button class="btn-light" type="button" data-bs-target="#project5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button class="btn-light" type="button" data-bs-target="#project5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        </div>
+                                        <div class="carousel-inner rounded mb-5">
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" src="assets/img/portfolio/project-5-a.jpg" alt="..." />
+                                                <div class="carousel-caption d-none d-md-block"><h5 class="text-white text-lowercase">Cheeseburgers are meant to be relished</h5></div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="assets/img/portfolio/project-5-b.jpg" alt="..." />
+                                                <div class="carousel-caption d-none d-md-block"><h5 class="text-white text-lowercase">Unless you're vegan</h5></div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="assets/img/portfolio/project-5-c.jpg" alt="..." />
+                                                <div class="carousel-caption d-none d-md-block"><h5 class="text-white text-lowercase">In which case we're sorry for your loss</h5></div>
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#project5" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#project5" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <div class="text-black text-start mb-4">
+                                        <p>Epic cheeseburgers come in all kinds of manifestations, but we want them no matter what. Slide those smashed patties with the gently caramelized meat fat between a toasted brioche bun and pass it over. You fall in love with the cheeseburger itself but the journey ain't half bad either.</p>
+                                        <p>They're the childhood friend that knows your highest highs and lowest lows. They've been with you through thick and thin and they're the best at keeping secrets. Whether it's dressed up or informal, cheeseburgers have your back.</p>
+                                        <p>Sometimes we lose sight of what really matters in life. There's something to be said for a gourmet brie and truffle burger paired with parmesan frites, but don't let that make you forget about the ol' faithful with American cheddar and a squishy bun.</p>
+                                        <p>
+                                            <em>Lettuce</em>
+                                            remind you that cheeseburgers come in all forms—bun intended.
+                                        </p>
+                                        <p>Pop quiz: what's the greatest thing to happen to your mind, body, and soul in recent history? A cheeseburger, obviously. Cheeseburgers know that what you want can also be what you need.</p>
+                                    </div>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-lowercase mb-0">Video</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom"><div class="divider-custom-line"></div></div>
+                                    <!-- Portfolio Modal - Video-->
+                                    <div class="position-relative mb-5" style="padding: 50% 0 0 0"><iframe class="position-absolute top-0 start-0 w-100 h-100" src="https://player.vimeo.com/video/146064123?h=360c843829&amp;title=0&amp;byline=0&amp;portrait=0" allowfullscreen></iframe></div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <div class="text-black mb-4">
+                                        <p>
+                                            We are lucky to live in a glorious age that gives us
+                                            <strong>everything</strong>
+                                            we could ask for as a human race. What more could you need when you have meat covered in cheese nestled between bread as a complete meal?
+                                        </p>
+                                        <p>From smashed patties at Shake Shack to Glamburgers at Honky Tonk, there's a little something for everyone. Some burgers are humble, and some are ostentatious, and you just have to try them all to figure out what you want.</p>
+                                    </div>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap JS-->
+        <script src="js/bootstrap.js"></script>
+        <!-- Font Awesome JS-->
+        <script src="js/all.js"></script>
+        <!-- Theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
