@@ -18,7 +18,7 @@ Visit the [demo website](https://pholio.netlify.app) to see the theme in action.
 
 ### Basic
 
-It is possible to use the theme without bothering with source files. Just take the contents of the `demo` folder and move them to the root, deleting everything else. You just need to edit `index.html` to customize the site. Some basic knowledge of HTML is helpful ([read here](https://developer.mozilla.org/en-US/docs/Learn/HTML)) but not required. Just search for the content you want to replace from the demo website, and rewrite it without fiddling with HTML tags.
+It is possible to use the theme without bothering with source files. Just take the contents of the `demo` folder and move them to the root, and delete everything else. You can edit `index.html` to customize the site. For that purpose, some basic knowledge of HTML is helpful ([read here](https://developer.mozilla.org/en-US/docs/Learn/HTML)), but not required. You can simply replace the content from the demo website, without fiddling with HTML tags.
 
 You should also replace the cover, avatar, and portfolio images in `assets/img`, unless you really like penguins, and customize favicons in `assets`. You can use an online tool like [this one](https://favicon.io/) to generate your own favicons.
 
