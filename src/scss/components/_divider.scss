@@ -31,4 +31,10 @@
             background-color: $light;
         }
     }
+
+    &.divider-dark {
+        .divider-custom-line {
+            background-color: darken($secondary, 10%);
+        }
+    }
 }
