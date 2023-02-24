@@ -44,12 +44,3 @@ window.addEventListener("DOMContentLoaded", (event) => {
     });
   });
 });
-
-var typed = new Typed("#typed", {
-    stringsElement: "#typed-strings",
-    backSpeed: 10,
-    typeSpeed: 30,
-    backDelay: 1000,
-    loop: true,
-    showCursor: false,
-  });
