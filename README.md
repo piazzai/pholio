@@ -2,7 +2,7 @@
 
 Pholio is a Bootstrap-based, responsive one-page theme for an online portfolio website, born as a variant of the [Freelancer theme](https://startbootstrap.com/theme/freelancer) developed by [StartBootstrap](https://startbootstrap.com/). Its main feature is a grid of project cards: on click, these open pop-up windows where more details about a project are displayed, together with an image, a carousel, or an embedded video. Two more sections are included to provide more information about the user, such as a biography or a professional statement.
 
-The typography is based on the [Alegreya Sans family](https://www.huertatipografica.com/en/fonts/alegreya-sans-ht), which adds a calligraphic touch to the traditional cleanliness and legibility of sans-serif typefaces. Additional liveliness is provided by the use of [Typed.js](https://mattboldt.com/demos/typed-js/) in the title section. The theme ships with a 404 page that links back to the index.
+The typography is based on the [Alegreya Sans family](https://www.huertatipografica.com/en/fonts/alegreya-sans-ht), which adds a calligraphic touch to the traditional cleanliness and legibility of sans-serif typefaces. Additional liveliness is provided by the use of [typed.js](https://mattboldt.com/demos/typed-js/) in the title section. The theme ships with a 404 page that links back to the index.
 
 Visit the [demo website](https://pholio.netlify.app) to see the theme in action.
 
@@ -26,7 +26,7 @@ With some knowledge of HTML you could add more projects to the grid by copy-past
 
 ### Advanced
 
-You can build the site from source using [Node.js](https://nodejs.org/en/). First, you need to install dependencies by running `npm install` in the root folder. Then, you can build the site by running `npm start`.
+You can build the site from source using [node.js](https://nodejs.org/en/). First, you need to install dependencies by running `npm install` in the root folder. Then, you can build the site by running `npm start`.
 
 The main difference with basic usage is that you work directly on source files, in the `src` folder. Content editing takes place in Pug files within `src/pug`. Pug is a language that compiles and renders into well-structured HTML. If you need information on how to write Pug code, see the [official docs](https://pugjs.org/). To change style elements, including type and color scheme, you can edit SCSS files in `src/scss`. Naturally, you still have to customize favicons in the `assets` folder, as well as cover, avatar, and portfolio images in `assets/img`.
 
